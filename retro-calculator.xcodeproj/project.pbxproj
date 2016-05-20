@@ -12,6 +12,12 @@
 		583369391CEDF9A900BEBE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583369371CEDF9A900BEBE47 /* Main.storyboard */; };
 		5833693B1CEDF9A900BEBE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5833693A1CEDF9A900BEBE47 /* Assets.xcassets */; };
 		5833693E1CEDF9A900BEBE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5833693C1CEDF9A900BEBE47 /* LaunchScreen.storyboard */; };
+		583369461CEDFEF000BEBE47 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 583369451CEDFEF000BEBE47 /* Minecraft.ttf */; };
+		583369481CEDFEF800BEBE47 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 583369471CEDFEF800BEBE47 /* btn.wav */; };
+		5833694A1CEF3B2B00BEBE47 /* intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 583369491CEF3B2B00BEBE47 /* intro.wav */; };
+		5833694E1CEF465100BEBE47 /* operation.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5833694D1CEF465100BEBE47 /* operation.aiff */; };
+		583369501CEF465800BEBE47 /* equals.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5833694F1CEF465800BEBE47 /* equals.wav */; };
+		583369521CEF483000BEBE47 /* clear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 583369511CEF483000BEBE47 /* clear.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		5833693A1CEDF9A900BEBE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5833693D1CEDF9A900BEBE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5833693F1CEDF9A900BEBE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583369451CEDFEF000BEBE47 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		583369471CEDFEF800BEBE47 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		583369491CEF3B2B00BEBE47 /* intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = intro.wav; sourceTree = "<group>"; };
+		5833694D1CEF465100BEBE47 /* operation.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = operation.aiff; sourceTree = "<group>"; };
+		5833694F1CEF465800BEBE47 /* equals.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = equals.wav; sourceTree = "<group>"; };
+		583369511CEF483000BEBE47 /* clear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clear.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 		583369321CEDF9A900BEBE47 /* retro-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				583369491CEF3B2B00BEBE47 /* intro.wav */,
+				5833694D1CEF465100BEBE47 /* operation.aiff */,
+				5833694F1CEF465800BEBE47 /* equals.wav */,
+				583369511CEF483000BEBE47 /* clear.wav */,
+				583369471CEDFEF800BEBE47 /* btn.wav */,
+				583369451CEDFEF000BEBE47 /* Minecraft.ttf */,
 				583369331CEDF9A900BEBE47 /* AppDelegate.swift */,
 				583369351CEDF9A900BEBE47 /* ViewController.swift */,
 				583369371CEDF9A900BEBE47 /* Main.storyboard */,
@@ -123,9 +141,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583369521CEF483000BEBE47 /* clear.wav in Resources */,
+				583369481CEDFEF800BEBE47 /* btn.wav in Resources */,
+				583369501CEF465800BEBE47 /* equals.wav in Resources */,
 				5833693E1CEDF9A900BEBE47 /* LaunchScreen.storyboard in Resources */,
+				5833694E1CEF465100BEBE47 /* operation.aiff in Resources */,
 				5833693B1CEDF9A900BEBE47 /* Assets.xcassets in Resources */,
+				583369461CEDFEF000BEBE47 /* Minecraft.ttf in Resources */,
 				583369391CEDF9A900BEBE47 /* Main.storyboard in Resources */,
+				5833694A1CEF3B2B00BEBE47 /* intro.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
